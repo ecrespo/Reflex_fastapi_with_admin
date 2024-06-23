@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "reflex-fastapi-with-admin"
+version = "0.1.0"
+description = ""
+authors = ["Ernesto Crespo <ecrespo@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ruff = "^0.4.10"
+mongoengine = "^0.28.2"
+starlette-admin = "^0.14.0"
+fastapi = "^0.111.0"
+reflex = "^0.5.4"
+sqlalchemy = "^2.0.31"
+itsdangerous = "^2.2.0"
+pydantic-settings = "^2.3.3"
+httpx = "^0.27.0"
+jinja2 = "^3.1.4"
+loguru = "^0.7.2"
+bcrypt = "^4.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
